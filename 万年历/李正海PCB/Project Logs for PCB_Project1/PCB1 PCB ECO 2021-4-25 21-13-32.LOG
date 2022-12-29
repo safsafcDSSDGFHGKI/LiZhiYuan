@@ -1,0 +1,198 @@
+Added Component: Designator=+(DPST-4)
+Added Component: Designator=-(DPST-4)
+Added Component: Designator=D1(LED-1)
+Added Component: Designator=DHT11(HDR1X3)
+Added Component: Designator=GND(HDR1X4)
+Added Component: Designator=LCD12864(HDR1X20)
+Added Component: Designator=NPN(TO-226-AA)
+Added Component: Designator=P1(HDR1X20H)
+Added Component: Designator=P2(HDR1X20H)
+Added Component: Designator=P(HDR2X4)
+Added Component: Designator=R1(6-0805_N)
+Added Component: Designator=R2(6-0805_N)
+Added Component: Designator=STM32F103C8T6(DIP-40)
+Added Component: Designator=串口下载(HDR1X4H)
+Added Component: Designator=时钟系统(HDR1X4H)
+Added Component: Designator=电源(DPDT-6)
+Added Component: Designator=背光(DPST-4)
+Added Component: Designator=菜单(DPST-4)
+Added Component: Designator=选择(DPST-4)
+Added Pin To Net: NetName=+5V Pin=LCD12864-2
+Added Pin To Net: NetName=+5V Pin=P1-3
+Added Pin To Net: NetName=+5V Pin=P-1
+Added Pin To Net: NetName=+5V Pin=P-3
+Added Pin To Net: NetName=+5V Pin=P-5
+Added Pin To Net: NetName=+5V Pin=P-7
+Added Pin To Net: NetName=+5V Pin=R1-2
+Added Pin To Net: NetName=+5V Pin=STM32F103C8T6-18
+Added Net: Name=+5V
+Added Pin To Net: NetName=DHT11 Pin=DHT11-2
+Added Pin To Net: NetName=DHT11 Pin=P2-10
+Added Pin To Net: NetName=DHT11 Pin=STM32F103C8T6-31
+Added Net: Name=DHT11
+Added Pin To Net: NetName=GND Pin=+-1
+Added Pin To Net: NetName=GND Pin=--1
+Added Pin To Net: NetName=GND Pin=DHT11-3
+Added Pin To Net: NetName=GND Pin=GND-1
+Added Pin To Net: NetName=GND Pin=GND-2
+Added Pin To Net: NetName=GND Pin=GND-3
+Added Pin To Net: NetName=GND Pin=GND-4
+Added Pin To Net: NetName=GND Pin=LCD12864-1
+Added Pin To Net: NetName=GND Pin=LCD12864-15
+Added Pin To Net: NetName=GND Pin=LCD12864-20
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=STM32F103C8T6-19
+Added Pin To Net: NetName=GND Pin=串口下载-4
+Added Pin To Net: NetName=GND Pin=时钟系统-1
+Added Pin To Net: NetName=GND Pin=背光-1
+Added Pin To Net: NetName=GND Pin=菜单-1
+Added Pin To Net: NetName=GND Pin=选择-1
+Added Net: Name=GND
+Added Pin To Net: NetName=IIC_SCL Pin=P1-7
+Added Pin To Net: NetName=IIC_SCL Pin=STM32F103C8T6-14
+Added Pin To Net: NetName=IIC_SCL Pin=时钟系统-4
+Added Net: Name=IIC_SCL
+Added Pin To Net: NetName=IIC_SDA Pin=P1-6
+Added Pin To Net: NetName=IIC_SDA Pin=STM32F103C8T6-15
+Added Pin To Net: NetName=IIC_SDA Pin=时钟系统-3
+Added Net: Name=IIC_SDA
+Added Pin To Net: NetName=K1 Pin=P2-16
+Added Pin To Net: NetName=K1 Pin=STM32F103C8T6-25
+Added Pin To Net: NetName=K1 Pin=选择-2
+Added Net: Name=K1
+Added Pin To Net: NetName=K2 Pin=--2
+Added Pin To Net: NetName=K2 Pin=P2-15
+Added Pin To Net: NetName=K2 Pin=STM32F103C8T6-26
+Added Net: Name=K2
+Added Pin To Net: NetName=K3 Pin=+-2
+Added Pin To Net: NetName=K3 Pin=P2-14
+Added Pin To Net: NetName=K3 Pin=STM32F103C8T6-27
+Added Net: Name=K3
+Added Pin To Net: NetName=K4 Pin=P2-13
+Added Pin To Net: NetName=K4 Pin=STM32F103C8T6-28
+Added Pin To Net: NetName=K4 Pin=菜单-2
+Added Net: Name=K4
+Added Pin To Net: NetName=LCD_BK_CON Pin=P2-12
+Added Pin To Net: NetName=LCD_BK_CON Pin=STM32F103C8T6-29
+Added Pin To Net: NetName=LCD_BK_CON Pin=背光-2
+Added Net: Name=LCD_BK_CON
+Added Pin To Net: NetName=LCD_BK Pin=P2-11
+Added Pin To Net: NetName=LCD_BK Pin=R2-1
+Added Pin To Net: NetName=LCD_BK Pin=STM32F103C8T6-30
+Added Net: Name=LCD_BK
+Added Pin To Net: NetName=LCD_CK Pin=LCD12864-6
+Added Pin To Net: NetName=LCD_CK Pin=P1-20
+Added Pin To Net: NetName=LCD_CK Pin=STM32F103C8T6-1
+Added Net: Name=LCD_CK
+Added Pin To Net: NetName=LCD_CS Pin=LCD12864-4
+Added Pin To Net: NetName=LCD_CS Pin=P1-18
+Added Pin To Net: NetName=LCD_CS Pin=STM32F103C8T6-3
+Added Net: Name=LCD_CS
+Added Pin To Net: NetName=LCD_IO Pin=LCD12864-5
+Added Pin To Net: NetName=LCD_IO Pin=P1-19
+Added Pin To Net: NetName=LCD_IO Pin=STM32F103C8T6-2
+Added Net: Name=LCD_IO
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=电源-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetLCD12864_19 Pin=LCD12864-19
+Added Pin To Net: NetName=NetLCD12864_19 Pin=NPN-3
+Added Net: Name=NetLCD12864_19
+Added Pin To Net: NetName=NetNPN_1 Pin=NPN-1
+Added Pin To Net: NetName=NetNPN_1 Pin=R1-1
+Added Net: Name=NetNPN_1
+Added Pin To Net: NetName=NetNPN_2 Pin=NPN-2
+Added Pin To Net: NetName=NetNPN_2 Pin=R2-2
+Added Net: Name=NetNPN_2
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_4 Pin=STM32F103C8T6-17
+Added Net: Name=NetP1_4
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=NetP1_5 Pin=STM32F103C8T6-16
+Added Net: Name=NetP1_5
+Added Pin To Net: NetName=NetP1_8 Pin=P1-8
+Added Pin To Net: NetName=NetP1_8 Pin=STM32F103C8T6-13
+Added Net: Name=NetP1_8
+Added Pin To Net: NetName=NetP1_9 Pin=P1-9
+Added Pin To Net: NetName=NetP1_9 Pin=STM32F103C8T6-12
+Added Net: Name=NetP1_9
+Added Pin To Net: NetName=NetP1_10 Pin=P1-10
+Added Pin To Net: NetName=NetP1_10 Pin=STM32F103C8T6-11
+Added Net: Name=NetP1_10
+Added Pin To Net: NetName=NetP1_11 Pin=P1-11
+Added Pin To Net: NetName=NetP1_11 Pin=STM32F103C8T6-10
+Added Net: Name=NetP1_11
+Added Pin To Net: NetName=NetP1_12 Pin=P1-12
+Added Pin To Net: NetName=NetP1_12 Pin=STM32F103C8T6-9
+Added Net: Name=NetP1_12
+Added Pin To Net: NetName=NetP1_13 Pin=P1-13
+Added Pin To Net: NetName=NetP1_13 Pin=STM32F103C8T6-8
+Added Net: Name=NetP1_13
+Added Pin To Net: NetName=NetP1_16 Pin=P1-16
+Added Pin To Net: NetName=NetP1_16 Pin=STM32F103C8T6-5
+Added Net: Name=NetP1_16
+Added Pin To Net: NetName=NetP1_17 Pin=P1-17
+Added Pin To Net: NetName=NetP1_17 Pin=STM32F103C8T6-4
+Added Net: Name=NetP1_17
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Pin To Net: NetName=NetP2_1 Pin=STM32F103C8T6-40
+Added Net: Name=NetP2_1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Pin To Net: NetName=NetP2_2 Pin=STM32F103C8T6-39
+Added Net: Name=NetP2_2
+Added Pin To Net: NetName=NetP2_3 Pin=P2-3
+Added Pin To Net: NetName=NetP2_3 Pin=STM32F103C8T6-38
+Added Net: Name=NetP2_3
+Added Pin To Net: NetName=NetP2_4 Pin=P2-4
+Added Pin To Net: NetName=NetP2_4 Pin=STM32F103C8T6-37
+Added Net: Name=NetP2_4
+Added Pin To Net: NetName=NetP2_5 Pin=P2-5
+Added Pin To Net: NetName=NetP2_5 Pin=STM32F103C8T6-36
+Added Net: Name=NetP2_5
+Added Pin To Net: NetName=NetP2_6 Pin=P2-6
+Added Pin To Net: NetName=NetP2_6 Pin=STM32F103C8T6-35
+Added Net: Name=NetP2_6
+Added Pin To Net: NetName=NetP2_7 Pin=P2-7
+Added Pin To Net: NetName=NetP2_7 Pin=STM32F103C8T6-34
+Added Net: Name=NetP2_7
+Added Pin To Net: NetName=NetP2_8 Pin=P2-8
+Added Pin To Net: NetName=NetP2_8 Pin=STM32F103C8T6-33
+Added Net: Name=NetP2_8
+Added Pin To Net: NetName=NetP2_9 Pin=P2-9
+Added Pin To Net: NetName=NetP2_9 Pin=STM32F103C8T6-32
+Added Net: Name=NetP2_9
+Added Pin To Net: NetName=NetP2_17 Pin=P2-17
+Added Pin To Net: NetName=NetP2_17 Pin=STM32F103C8T6-24
+Added Net: Name=NetP2_17
+Added Pin To Net: NetName=NetP2_18 Pin=P2-18
+Added Pin To Net: NetName=NetP2_18 Pin=STM32F103C8T6-23
+Added Net: Name=NetP2_18
+Added Pin To Net: NetName=NetP2_19 Pin=P2-19
+Added Pin To Net: NetName=NetP2_19 Pin=STM32F103C8T6-22
+Added Net: Name=NetP2_19
+Added Pin To Net: NetName=NetP2_20 Pin=P2-20
+Added Pin To Net: NetName=NetP2_20 Pin=STM32F103C8T6-21
+Added Net: Name=NetP2_20
+Added Pin To Net: NetName=RX Pin=P1-14
+Added Pin To Net: NetName=RX Pin=STM32F103C8T6-7
+Added Pin To Net: NetName=RX Pin=串口下载-2
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=P1-15
+Added Pin To Net: NetName=TX Pin=STM32F103C8T6-6
+Added Pin To Net: NetName=TX Pin=串口下载-3
+Added Net: Name=TX
+Added Pin To Net: NetName=V3.3 Pin=D1-2
+Added Pin To Net: NetName=V3.3 Pin=DHT11-1
+Added Pin To Net: NetName=V3.3 Pin=P1-1
+Added Pin To Net: NetName=V3.3 Pin=P-2
+Added Pin To Net: NetName=V3.3 Pin=P-4
+Added Pin To Net: NetName=V3.3 Pin=P-6
+Added Pin To Net: NetName=V3.3 Pin=P-8
+Added Pin To Net: NetName=V3.3 Pin=STM32F103C8T6-20
+Added Pin To Net: NetName=V3.3 Pin=时钟系统-2
+Added Net: Name=V3.3
+Added Pin To Net: NetName=VIN Pin=串口下载-1
+Added Pin To Net: NetName=VIN Pin=电源-1
+Added Net: Name=VIN
+Added Class: Name=Sheet2
+Added Room: Name=Sheet2

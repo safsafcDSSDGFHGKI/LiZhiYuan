@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\桌面\A1321_04_胡新旺\Project\RVMDK（uv4）\A1321_04_胡新旺.uvprojx
+Project File Date:  03/11/2021
+
+<h2>Output:</h2>
+Rebuild target 'Template'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_tim.c...
+compiling main.c...
+..\..\User\main.c(620): warning:  #223-D: function "calendar_circle_clock_drawpanel" declared implicitly
+        calendar_circle_clock_drawpanel(120,140,160,9);
+..\..\User\main.c(635): warning:  #223-D: function "calendar_circle_clock_showtime" declared implicitly
+          calendar_circle_clock_showtime(120,140,160,9,RealTime.Hour,RealTime.Min,RealTime.Sec);//显示 时分秒    
+..\..\User\main.c(727): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+          ILI9341_DispString_EN_32( 30,50, (u8*)Str ,macWHITE,macBLACK);                        
+..\..\User\main.c(815): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+        ILI9341_DispString_EN_32( 10 , 40 , (u8*)cStr , macWHITE , macBLACK );
+..\..\User\main.c(866): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+           ILI9341_DispString_EN_32( 10 , 40 , (u8*)cStr , macWHITE , macBLACK );       
+..\..\User\main.c(964): warning:  #177-D: variable "num" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(964): warning:  #177-D: variable "i" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(964): warning:  #177-D: variable "k" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(1088): warning:  #177-D: variable "num" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(1088): warning:  #177-D: variable "i" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(1088): warning:  #177-D: variable "k" was declared but never referenced
+        u16 num=0,i=0,m,k=35;
+..\..\User\main.c(1211): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=20 && tp_dev.x<60 && tp_dev.y>=0&& tp_dev.y<48 )             KeyTmp = 121;  //时钟的返回键值 
+..\..\User\main.c(1213): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=70 && tp_dev.x<120 && tp_dev.y>=0 && tp_dev.y<48 )       KeyTmp = 122; //闹钟的返回 键值 
+..\..\User\main.c(1215): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=130 && tp_dev.x<170 && tp_dev.y>=0 && tp_dev.y<48 )          KeyTmp = 123; //秒表 的 返回 键值
+..\..\User\main.c(1217): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=180 && tp_dev.x<220 && tp_dev.y>=0 && tp_dev.y<48 )          KeyTmp = 124;//月历 的 返回 键值
+..\..\User\main.c(1231): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=20 && tp_dev.x<60 && tp_dev.y>=0&& tp_dev.y<48 )          KeyTmp = 121;// 时钟 工作 界面 
+..\..\User\main.c(1233): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=70 && tp_dev.x<120 && tp_dev.y>=0 && tp_dev.y<48 )   KeyTmp = 122;// 闹钟 工作 界面 
+..\..\User\main.c(1235): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=130 && tp_dev.x<170 && tp_dev.y>=0 && tp_dev.y<48 )  KeyTmp = 123;//秒表 工作 界面 
+..\..\User\main.c(1237): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=180 && tp_dev.x<220 && tp_dev.y>=0 && tp_dev.y<48 )  KeyTmp = 124; //月历 工作 界面
+..\..\User\main.c(1254): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=20 && tp_dev.x<60 && tp_dev.y>=0&& tp_dev.y<48 )          KeyTmp = 121;//时钟
+..\..\User\main.c(1256): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=70 && tp_dev.x<120 && tp_dev.y>=0 && tp_dev.y<48 )   KeyTmp = 122;//闹钟
+..\..\User\main.c(1258): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=130 && tp_dev.x<170 && tp_dev.y>=0 && tp_dev.y<48 )  KeyTmp = 123; //秒表
+..\..\User\main.c(1260): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=180 && tp_dev.x<220 && tp_dev.y>=0 && tp_dev.y<48 )  KeyTmp = 124; //月历
+..\..\User\main.c(1271): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=20 && tp_dev.x<60 && tp_dev.y>=0&& tp_dev.y<48-16 )               KeyTmp = 121;
+..\..\User\main.c(1273): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=70 && tp_dev.x<120 && tp_dev.y>=0 && tp_dev.y<48-16 )        KeyTmp = 122;
+..\..\User\main.c(1275): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=130 && tp_dev.x<170 && tp_dev.y>=0 && tp_dev.y<48-16 )       KeyTmp = 123;
+..\..\User\main.c(1277): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=180 && tp_dev.x<220 && tp_dev.y>=0 && tp_dev.y<48-16 )       KeyTmp = 124;
+..\..\User\main.c(1303): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=0 && tp_dev.x<50 && tp_dev.y>=0&& tp_dev.y<20 )             KeyTmp = 121;
+..\..\User\main.c(1303): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=0 && tp_dev.x<50 && tp_dev.y>=0&& tp_dev.y<20 )             KeyTmp = 121;
+..\..\User\main.c(1304): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=200&& tp_dev.x<240 && tp_dev.y>=0 && tp_dev.y<20 )     KeyTmp = 122; //保存  122
+..\..\User\main.c(1318): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                if(num_x>=0 && num_x<=2 &&  num_y>=0 && num_y<=2 )
+..\..\User\main.c(1318): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                if(num_x>=0 && num_x<=2 &&  num_y>=0 && num_y<=2 )
+..\..\User\main.c(1354): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=23 && tp_dev.x<55 && tp_dev.y>=0&& tp_dev.y<48 )  KeyTmp = 121;
+..\..\User\main.c(1356): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=23+54 && tp_dev.x<55+54 && tp_dev.y>=0 && tp_dev.y<38 )      KeyTmp = 122;
+..\..\User\main.c(1368): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=0 && tp_dev.x<50 && tp_dev.y>=0&& tp_dev.y<20 )             KeyTmp = 121;
+..\..\User\main.c(1368): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        if( tp_dev.x>=0 && tp_dev.x<50 && tp_dev.y>=0&& tp_dev.y<20 )             KeyTmp = 121;
+..\..\User\main.c(1369): warning:  #186-D: pointless comparison of unsigned integer with zero
+                        else if( tp_dev.x>=200&& tp_dev.x<240 && tp_dev.y>=0 && tp_dev.y<20 )     KeyTmp = 122; //保存  122
+..\..\User\main.c(1378): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                if(num_x>=0 && num_x<=2 &&  num_y>=0 && num_y<=2 )
+..\..\User\main.c(1378): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                if(num_x>=0 && num_x<=2 &&  num_y>=0 && num_y<=2 )
+..\..\User\main.c(1438): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1459): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                if(num1>=0 && num1<=59)
+..\..\User\main.c(1504): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1526): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                if(num2>=0 && num2<=59)
+..\..\User\main.c(1573): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                        else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1646): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                        else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1720): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                        else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1792): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1814): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                        if(num>=0 && num<=23) //设置的小时 范围符合 0-23
+..\..\User\main.c(1863): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1885): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                                if(num>=0 && num<=59)
+..\..\User\main.c(1931): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                else if(TouchKey>=0&&TouchKey<=9)
+..\..\User\main.c(1953): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                                if(num>=0 && num<=59)
+..\..\User\main.c: 52 warnings, 0 errors
+compiling bsp_ili9341_lcd.c...
+compiling bsp_lcd.c...
+compiling bsp_xpt2046_lcd.c...
+compiling fatfs_flash_spi.c...
+compiling stm32f10x_it.c...
+compiling clock.c...
+compiling bsp_calendar.c...
+compiling bsp_beep.c...
+linking...
+Program Size: Code=35280 RO-data=23328 RW-data=440 ZI-data=4112  
+FromELF: creating hex file...
+"..\..\Output\Template.axf" - 0 Error(s), 52 Warning(s).

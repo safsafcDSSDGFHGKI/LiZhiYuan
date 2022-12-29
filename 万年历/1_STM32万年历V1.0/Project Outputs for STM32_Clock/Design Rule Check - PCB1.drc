@@ -1,0 +1,60 @@
+Protel Design System Design Rule Check
+PCB File : D:\4_Altium Desginer\1_PCB工程\6_STM32万年历\PCB1.PcbDoc
+Date     : 2019/5/14
+Time     : 21:28:10
+
+Processing Rule : Clearance Constraint (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=40mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad Free-2(3011.811mil,2559.055mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad Free-3(3011.811mil,0mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad Free-4(-452.756mil,0mil) on Multi-Layer Actual Hole Size = 118.11mil
+   Violation between Hole Size Constraint: (118.11mil > 100mil) Pad Free-1(-452.756mil,2559.055mil) on Multi-Layer Actual Hole Size = 118.11mil
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (7.75mil < 10mil) Between Pad S1-1(20mil,1365mil) on Multi-Layer And Pad S1-(20mil,1433.898mil) on Multi-Layer [Top Solder] Mask Sliver [7.75mil] / [Bottom Solder] Mask Sliver [7.75mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.75mil < 10mil) Between Pad S1-3(20mil,1168.15mil) on Multi-Layer And Pad S1-(20mil,1099.252mil) on Multi-Layer [Top Solder] Mask Sliver [7.75mil] / [Bottom Solder] Mask Sliver [7.75mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (2mil < 10mil) Between Pad DS18B20-2(500mil,2535mil) on Multi-Layer And Pad DS18B20-3(450mil,2535mil) on Multi-Layer [Top Solder] Mask Sliver [2mil] / [Bottom Solder] Mask Sliver [2mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (2mil < 10mil) Between Pad DS18B20-2(500mil,2535mil) on Multi-Layer And Pad DS18B20-1(550mil,2535mil) on Multi-Layer [Top Solder] Mask Sliver [2mil] / [Bottom Solder] Mask Sliver [2mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.75mil < 10mil) Between Pad Power-4(-146.142mil,470.116mil) on Top Layer And Pad Power-5(-146.142mil,434.681mil) on Top Layer [Top Solder] Mask Sliver [7.75mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad Power-3(-146.142mil,501.612mil) on Top Layer And Pad Power-4(-146.142mil,470.116mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad Power-2(-146.142mil,533.108mil) on Top Layer And Pad Power-3(-146.142mil,501.612mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.746mil < 10mil) Between Pad Power-1(-146.142mil,568.539mil) on Top Layer And Pad Power-2(-146.142mil,533.108mil) on Top Layer [Top Solder] Mask Sliver [7.746mil]
+Rule Violations :8
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 12
+Waived Violations : 0
+Time Elapsed        : 00:00:02

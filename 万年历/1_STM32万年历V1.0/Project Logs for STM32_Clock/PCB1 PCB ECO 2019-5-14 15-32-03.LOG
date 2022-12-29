@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=K2 Pin=+-2
+Removed Pin From Net: NetName=K3 Pin=--2
+Removed Pin From Net: NetName=K1 Pin=菜单-2
+Removed Pin From Net: NetName=K4 Pin=选择-2
+Change Component Designator: OldDesignator=DS_BAT NewDesignator=DS_BA
+Added Pin To Net: NetName=K3 Pin=+-2
+Added Pin To Net: NetName=K2 Pin=--2
+Added Pin To Net: NetName=K4 Pin=菜单-2
+Added Pin To Net: NetName=K1 Pin=选择-2
+Added Room: Name=Sheet1
